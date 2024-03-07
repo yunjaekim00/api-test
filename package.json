@@ -1,7 +1,10 @@
 {
-  "name": "test-api-next",
+  "name": "@x2bee/test-api-next",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "bin": {
+    "@x2bee/test-api-next": "./bin/cli.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
