@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import { HelloWorldComponent } from '../src/app';
+
 const { parseArgs } = require('node:util');
 const next = require('next');
 
@@ -26,3 +28,5 @@ app.prepare().then(() => {
 		console.log(`> Ready on http://localhost:${port}`);
 	});
 });
+
+export { HelloWorldComponent }

@@ -1,11 +1,10 @@
 {
   "name": "@x2bee/test-api-next",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "bin": {
     "@x2bee/test-api-next": "./bin/cli.js"
   },
-  "main": "src/app/index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
